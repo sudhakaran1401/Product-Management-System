@@ -5,9 +5,9 @@ This project allows users to manage product records through a simple menu-driven
 
 ---
 
-# ✨ Features
+✨ Features
 
-✅ CRUD operations on products 
+✅ CRUD Operations on Products
 ✅ MySQL Database Connectivity
 ✅ JDBC Integration
 ✅ Menu-Driven Console Application
