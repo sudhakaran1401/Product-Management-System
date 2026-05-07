@@ -1,16 +1,17 @@
 # 🚀 Product Management System
 
-A simple and efficient **Java Console-Based CRUD Application** built using **Java, JDBC, MySQL, and Maven**.
-This project helps manage product records with complete database connectivity and menu-driven operations.
+A console-based CRUD (Create, Read, Update, Delete) application developed using **Java, JDBC, MySQL, and Maven**.
+This project allows users to manage product records through a simple menu-driven console interface with MySQL database connectivity.
 
 ---
 
 # ✨ Features
 
-✅ CRUD operations on Products
-✅ MySQL Database Integration
-✅ JDBC Connectivity
-✅ Menu-Driven Console Interface
+✅ CRUD operations on products 
+✅ MySQL Database Connectivity
+✅ JDBC Integration
+✅ Menu-Driven Console Application
+✅ Maven Project Structure
 
 ---
 
@@ -26,7 +27,7 @@ This project helps manage product records with complete database connectivity an
 
 # 📂 Project Structure
 
-```
+```text
 productmanagement
 │
 ├── pom.xml
@@ -45,17 +46,45 @@ productmanagement
 
 ---
 
-# ▶️ Run the Project
+# ⚙️ Configure Database Connection
 
-## Compile Project
+Update your MySQL credentials inside:
 
-```bash id="8x2yfd"
+```text
+DBConnection.java
+```
+
+```java
+String url = "jdbc:mysql://localhost:3306/productdb";
+String user = "root";
+String password = "yourpassword";
+```
+
+---
+
+# ▶️ How to Run the Project
+
+## Step 1 — Clone Repository
+
+```bash
+git clone https://github.com/yourusername/product-management-system.git
+```
+
+## Step 2 — Open Project Folder
+
+```bash
+cd product-management-system
+```
+
+## Step 3 — Compile Project
+
+```bash
 mvn clean compile
 ```
 
-## Run Application
+## Step 4 — Run Application
 
-```bash id="z4n8mp"
+```bash
 java -cp target/classes com.example.App
 ```
 
@@ -63,7 +92,7 @@ java -cp target/classes com.example.App
 
 # 📸 Console Menu
 
-```text id="bc0vwo"
+```text
 ===== PRODUCT MANAGEMENT SYSTEM =====
 
 1. Add Product
@@ -80,31 +109,30 @@ java -cp target/classes com.example.App
 * JDBC Connectivity
 * CRUD Operations
 * MySQL Integration
-* Maven Project Management
+* Maven Build Management
 * Java OOP Concepts
 * Exception Handling
+* Database Management
 
 ---
----
-🔮 Future Enhancements
 
-The following features can be added to upgrade the project into a more advanced full-stack application:
+# 🔮 Future Enhancements
 
-🔐 User Authentication & Login System
-🌐 Spring Boot Web Application with Frontend UI
-🔎 Product Search and Filter Functionality
-📊 Dashboard with Product Statistics
-📱 Responsive UI using Bootstrap
-📦 Product Category Management
-🧾 Invoice / Billing Module
-📁 File Upload for Product Images
-🔔 Low Stock Alert System
-📄 Export Data to PDF or Excel
-🧪 Unit Testing with JUnit
-☁️ Cloud Deployment (Render / Railway / AWS)
-🔗 REST API Integration
-📈 Pagination and Sorting
-🐳 Docker Containerization
+* 🔐 User Authentication & Login System
+* 🌐 Spring Boot Web Application with Frontend UI
+* 🔎 Product Search and Filter Functionality
+* 📊 Dashboard with Product Statistics
+* 📱 Responsive UI using Bootstrap
+* 📦 Product Category Management
+* 🧾 Invoice / Billing Module
+* 📁 File Upload for Product Images
+* 🔔 Low Stock Alert System
+* 📄 Export Data to PDF or Excel
+* 🧪 Unit Testing with JUnit
+* ☁️ Cloud Deployment (Render / Railway / AWS)
+* 🔗 REST API Integration
+* 📈 Pagination and Sorting
+* 🐳 Docker Containerization
 
 ---
 
@@ -112,4 +140,4 @@ The following features can be added to upgrade the project into a more advanced 
 
 **Sudha Karan**
 
-⭐ If you like this project, give it a star on GitHub!
+⭐ If you found this project useful, consider giving it a star on GitHub!
