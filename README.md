@@ -5,13 +5,13 @@ This project allows users to manage product records through a simple menu-driven
 
 ---
 
-✨ Features
+# ✨ Features
 
-✅ CRUD Operations on Products
-✅ MySQL Database Connectivity
-✅ JDBC Integration
-✅ Menu-Driven Console Application
-✅ Maven Project Structure
+* ✅ CRUD Operations on Products
+* ✅ MySQL Database Connectivity
+* ✅ JDBC Integration
+* ✅ Menu-Driven Console Application
+* ✅ Maven Project Structure
 
 ---
 
@@ -41,8 +41,6 @@ productmanagement
 │                   ├── Product.java
 │                   └── ProductDAO.java
 ```
-
----
 
 ---
 
